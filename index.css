@@ -1,0 +1,135 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #202124;
+}
+
+
+
+nav ul{
+   display: flex; 
+   list-style: none;
+   min-height: 65px;
+   align-items: center;
+   background-color: black;
+   color: white;
+}
+
+nav ul li{
+    padding: 0 12px;
+    cursor: pointer;
+}
+.brand img{
+    width: 44px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.brand span{
+    padding-left: 10px;
+}
+
+#header{
+    font-family: 'Times New Roman', Times, serif;
+    color: #7f8cd4;
+}
+
+.container{
+   min-height: 80vh;
+   background-color: black;
+   color: white;
+   display: flex;
+   width: 70%;
+   margin: 24px auto;
+   border-radius: 12px;
+   padding: 34px;
+   background-image: url('/img/coverr.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.bottom{
+    position: sticky;
+    min-height: 80px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#myprogressbar{
+    width: 80vw;
+    cursor: pointer;
+}
+
+.icons{
+    margin-top: 19px ;
+}
+.icons i{
+    padding-left:8px;
+    cursor: pointer;
+}
+
+.songlist{
+    width: 90%;
+}
+
+.songitemcontainer{
+    margin-top: 24px;
+}
+.songItem{
+    height: 60px;
+    display: flex;
+    width: 80%;
+    background-color: rgb(44, 39, 39);
+    color: white;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px ;
+
+}
+
+.songItem img{
+    width: 60px;
+    margin: 0 23px;
+    border-radius: 34px;
+}
+
+.timestamp{
+    margin: 0 23px;
+}
+.timestamp i{
+    padding-left: 5px;
+    cursor: pointer;
+}
+
+.songinfo{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 10vw;
+}
+.songinfo img{
+    opacity:"";
+    transition: 0.4s ease-in;
+}
+#gif{
+    width: 6vw;
+    padding-top: 5px;
+}
+
+#songbanner img{
+    margin-top: 45px;
+}
