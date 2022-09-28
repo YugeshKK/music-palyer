@@ -15,9 +15,9 @@ let banner= document.getElementById('songbanner')
 
 
 let songs=[
-    {songName:"Love me like you do", filePath:"songs/0.mp3", coverPath:"/img/grey.jpg"},
-    {songName:"Earned it", filePath:"songs/1.mp3", coverPath:"/img/darker.png"},
-    {songName:"Not afraid anymore", filePath:"songs/2.mp3", coverPath:"/img/freed.jpg"},
+    {songName:"Love me like you do", filePath:"songs/0.mp3", coverPath:"/img/grey.JPG"},
+    {songName:"Earned it", filePath:"songs/1.mp3", coverPath:"/img/darker.PNG"},
+    {songName:"Not afraid anymore", filePath:"songs/2.mp3", coverPath:"/img/freed.JPG"},
 ]
 
 songItems.forEach((element, i ) => {
