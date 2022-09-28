@@ -21,7 +21,7 @@ let songs=[
 ]
 
 songItems.forEach((element, i ) => {
-    element.getElementsByTagName('img')[0].src= songs[i].coverPath
+    element.getElementsByTagName('img')[0].src=songs[i].coverPath
 });
 
 masterplay.addEventListener('click',()=>{
