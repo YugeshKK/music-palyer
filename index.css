@@ -8,7 +8,6 @@ body{
 }
 
 
-
 nav ul{
    display: flex; 
    list-style: none;
@@ -133,3 +132,52 @@ nav ul li{
 #songbanner img{
     margin-top: 45px;
 }
+
+
+@media  screen and (max-width: 376px) {
+    .cont{width: 24rem; }
+    .container{width: 20rem; margin: 24px auto;}
+    #songbanner img{
+        position: absolute;
+        right: 70px;
+        top: 370px;
+        height: 200px;
+        width: 250px;
+    }
+    #header{
+        font-size: 20px;
+    }
+    .songitemcontainer{
+        position: relative;
+        left: 3px;
+    }
+    .songItem{
+        width: 300px;
+        font-size: 12px;
+    }
+}
+
+
+@media  screen and (max-width: 550px) {
+    .cont{width: 26rem; }
+    .container{width: 20rem; margin: 24px auto;}
+    #songbanner img{
+        position: absolute;
+        left: 10px;
+        top: 370px;
+        height: 300px;
+        width: 350px;
+    }
+    #header{
+        font-size: 20px;
+    }
+    .songitemcontainer{
+        position: relative;
+        left: 3px;
+    }
+    .songItem{
+        width: 300px;
+        font-size: 12px;
+    }
+}
+
